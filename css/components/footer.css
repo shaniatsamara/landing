@@ -1,0 +1,46 @@
+.footer {
+   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Screen\ Shot\ 2021-11-11\ at\ 14.39.32.png");
+   background-size: cover;
+   background-position: top;
+   /* height: 200px; */
+}
+
+ul{
+  text-decoration: none;
+  padding: 10px 0 5px 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: white;
+  font-size: 40px;
+  text-decoration:none;
+  text-align: center
+}
+
+.icon {
+  width: max-content;
+  margin: 0 auto;
+  padding: 50px;
+  display: inline-block;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.icon-tag {
+  margin: 10px;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

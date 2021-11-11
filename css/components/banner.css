@@ -1,0 +1,42 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Screen\ Shot\ 2021-11-11\ at\ 14.02.38.png");
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-content h1 {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+}
+
+.banner-content p {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.banner-content button {
+  background-color: #FFFFFC;
+  text-decoration: none;
+  border: gray;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.banner-content button:hover {
+  opacity: 1.0;
+  font-weight: bold;
+}
+
+.banner-content {
+  position: absolute;
+  left: 160px;
+  top: 280px;
+}
